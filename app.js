@@ -32,4 +32,5 @@ hackerMessage.innerText = "Your account has been compromised."
 body.append(hackerMessage)
 
 // * Reset the days counter to `0`
-
+const daysCounter = document.querySelector('span')
+daysCounter.innerText = 0
